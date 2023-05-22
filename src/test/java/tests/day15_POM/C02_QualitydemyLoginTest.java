@@ -9,7 +9,7 @@ import utilities.ReusableMethods;
 
 public class C02_QualitydemyLoginTest {
 
-    @Test
+    @Test(groups = "smoke")
     public void test01(){
         // qualitydemy ana sayfaya gidin
         Driver.getDriver().get("https://www.qualitydemy.com/");
